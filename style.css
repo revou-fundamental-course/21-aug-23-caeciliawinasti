@@ -1,0 +1,188 @@
+.header-wrapper {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 20px 24px;
+}
+
+.header-wrapper > .menu {
+    display: flex;
+}
+
+.header-wrapper > .menu > button {
+    background-color: white;
+    border: 1px solid blue;
+    padding: 16px 16px;                
+    cursor: pointer;
+    transition: 0.3s background-color ease-out;
+}
+
+.header-wrapper > .menu > button:hover {
+    background-color: aquamarine;
+}
+
+.header-wrapper > .menu > button:first-child {
+    border-radius: 20px 0 0 5px;
+}
+
+.header-wrapper > .menu > button:last-child {
+    border-radius: 0 5px 20px 0;
+}
+
+.header-wrapper > .logo {
+    width: auto;
+    height: 60px;
+}
+
+.our-profile .form-section form,
+.our-profile .form-section div {
+    width: 100%;
+}
+
+.img-slideshow {
+    width: 100%;
+}
+
+
+@media screen and (max-width:600px) {
+    .header-wrapper {
+        flex-direction: columns;
+    }
+
+.menu {
+    width: 100%;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+}
+
+body {
+    background-color: lightblue
+}
+
+.our-profile {
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 50px 50px;
+}
+
+    table, td, th {
+        border: 1px solid;
+        background-color: aliceblue;
+        margin-top: 40px;
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+    table {
+        width: 100%;
+      }
+      
+      th {
+        height: 70px;
+      }
+
+      td {
+        height: 70px;
+        padding: 10px 10px;
+        text-align: center;
+      }
+      
+
+      div.gallery {
+        border: 1px solid #ccc;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 200px;
+        height: 200px;
+        border-radius: 60%;        
+      }
+      
+      div.desc {
+        padding: 5px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .teachers {
+        padding: 20px 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      
+      @media only screen and (max-width: 700px) {
+        .teachers {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        .teachers {
+          width: 100%;
+        }
+      }
+      
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+.tutor {
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 30px 30px;
+    }
+
+
+.autoSlide {
+    display: block;
+    padding: 60px;
+    width: 950px;
+    height: 750px;
+}
+
+.facilities {
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 30px 30px;
+}
+
+.form > .showMessages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showMessages {
+    background-color: aliceblue;
+    display: inline-table 300px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 20px 24px;
+    margin-top: 50px;
+}
+
+footer {
+    text-align: right;
+}
